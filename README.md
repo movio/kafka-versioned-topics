@@ -76,3 +76,11 @@ that would be created or deleted.
 
 Note that `create` will only create topics that don't exist. Similarly, `delete`
 will only delete topics that match exactly your configured specification.
+
+## Building
+
+SBT is configured to create a single jar with all dependencies included:
+
+```sh
+$ sbt assembly
+```
